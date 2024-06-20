@@ -1,5 +1,6 @@
 require("gigglebiscuits.packer")
 require("gigglebiscuits.nvimtree")
+require("gigglebiscuits.telescope")
 require("gigglebiscuits.treesitter")
 require("gigglebiscuits.lsp")
 require("gigglebiscuits.cmp")
