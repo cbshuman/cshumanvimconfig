@@ -15,10 +15,14 @@ end
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
-require("lspconfig").clangd.setup {
+if(require("lspconfig").clangd.setup {
   capabilities = capabilities,
   on_attach = on_attach
-}
+}) then
+  print('Loaded clangd')
+else
+  print('Problem loading clangd')
+end
 
 require("lspconfig").lua_ls.setup{
   capabilities = capabilities,
