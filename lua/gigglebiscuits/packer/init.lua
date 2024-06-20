@@ -31,6 +31,8 @@ require('pckr').add {
  	 },
 	'nvim-treesitter/nvim-treesitter', run = ':TSUpdate',
 	'folke/tokyonight.nvim', lazy = false, priority = 100, opts ={},
+  'hrsh7th/nvim-cmp',
+  'hrsh7th/cmp-nvim-lsp',
 }
 
 
