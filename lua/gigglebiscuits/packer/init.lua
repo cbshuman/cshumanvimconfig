@@ -28,6 +28,5 @@ require('pckr').add {
 	'folke/tokyonight.nvim', lazy = false, priority = 100, opts ={},
   'hrsh7th/nvim-cmp',
   'hrsh7th/cmp-nvim-lsp',
+  'L3MON4D3/LuaSnip'
 }
-
-
