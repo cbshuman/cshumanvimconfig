@@ -1,4 +1,4 @@
-require("gigglebiscuits.packer")
+require("gigglebiscuits.pckr")
 require("gigglebiscuits.nvimtree")
 require("gigglebiscuits.telescope")
 require("gigglebiscuits.treesitter")

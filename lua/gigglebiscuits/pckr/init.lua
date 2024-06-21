@@ -18,8 +18,11 @@ bootstrap_pckr()
 
 require('pckr').add {
 	'nvim-lua/plenary.nvim',
-  'nvim-tree/nvim-tree.lua',  requires = 
-      { 'nvim-tree/nvim-web-devicons' },
+  'nvim-tree/nvim-tree.lua',
+  'nvim-tree/nvim-web-devicons',
+  'JMarkin/nvim-tree.lua-float-preview',
+  "antosha417/nvim-lsp-file-operations", requires =
+      {"nvim-lua/plenary.nvim","nvim-tree/nvim-tree.lua"},
 	'williamboman/mason.nvim',
   'williamboman/mason-lspconfig.nvim',
   'neovim/nvim-lspconfig',
