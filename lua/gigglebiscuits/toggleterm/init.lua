@@ -19,11 +19,8 @@ require("toggleterm").setup({
   shade_terminals = true,
   shading_factor = 2,
   start_in_insert = true,
-  direction = 'float'
+  direction = 'horizontal',
+  close_on_exit = true,
 })
 
-
-
---vim.cmd [[let &shell = '"C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe"' ]]
-
---vim.keymap.set('n','', ':ToggleTerm size=40 dir=~/Desktop direction=horizontal name=desktop<CR>')
+vim.keymap.set('n','<C-\\>', ':ToggleTerm name=desktop<CR>')
