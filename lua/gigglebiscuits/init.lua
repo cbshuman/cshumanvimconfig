@@ -1,6 +1,7 @@
 require("gigglebiscuits.pckr")
 require("gigglebiscuits.nvimtree")
 require("gigglebiscuits.git")
+require("gigglebiscuits.toggleterm")
 require("gigglebiscuits.telescope")
 require("gigglebiscuits.treesitter")
 require("gigglebiscuits.lsp")

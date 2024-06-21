@@ -26,6 +26,7 @@ require('pckr').add {
 	'williamboman/mason.nvim',
   'williamboman/mason-lspconfig.nvim',
   'neovim/nvim-lspconfig',
+  "akinsho/toggleterm.nvim",
   'nvim-telescope/telescope.nvim', tag ='0.1.6',
 	'nvim-treesitter/nvim-treesitter', run = ':TSUpdate',
 	'folke/tokyonight.nvim', lazy = false, priority = 100, opts ={},
