@@ -11,3 +11,4 @@ Custom Keybindings:
 * \tg  - Grep (find string in files)
 * \tff - Find files
 * \tb  - Shows Open Buffers
+* \b   - Git Blame
