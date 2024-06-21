@@ -2,6 +2,15 @@
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
+
+local function on_attach(bufnr)
+    local api = require("nvim-tree.api")
+    local FloatPreview = require("float-preview")
+
+    FloatPreview.attach_nvimtree(bufnr)
+end
+
+
 -- OR setup with some options
 require("nvim-tree").setup({
   sort = {
