@@ -21,6 +21,8 @@ require('pckr').add {
   'nvim-tree/nvim-tree.lua',
   'FabijanZulj/blame.nvim',
   'nvim-tree/nvim-web-devicons',
+  "NeogitOrg/neogit",
+  "sindrets/diffview.nvim",
   "antosha417/nvim-lsp-file-operations", requires =
       {"nvim-lua/plenary.nvim","nvim-tree/nvim-tree.lua"},
 	'williamboman/mason.nvim',

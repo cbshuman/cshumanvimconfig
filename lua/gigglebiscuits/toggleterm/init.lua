@@ -23,4 +23,4 @@ require("toggleterm").setup({
   close_on_exit = true,
 })
 
-vim.keymap.set('n','<esc>', ':ToggleTerm name=desktop<CR>')
+vim.keymap.set('n','<C-\\>', ':ToggleTerm name=desktop<CR>')
