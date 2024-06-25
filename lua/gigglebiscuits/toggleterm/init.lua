@@ -13,7 +13,7 @@ for option, value in pairs(powershell_options) do
 end
 
 require("toggleterm").setup({
-  size = 20,
+  size = 10,
   open_mapping = [[C-\\]],
   hide_numbers = true,
   shade_terminals = true,
