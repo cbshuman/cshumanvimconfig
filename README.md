@@ -4,7 +4,7 @@ My neovim config. Not sure if I'm completely onboard with this, but it's fun to 
 Custom Keybindings:
 
 * <C_\\> - Open Terminal
-* n      - Open/close files
+* n      - Open/close file explorer
 * \rn    - LSP rename
 * gd     - Code action
 * \t     - Telescope refences based on LSP
