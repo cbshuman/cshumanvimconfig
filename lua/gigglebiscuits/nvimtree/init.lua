@@ -29,4 +29,4 @@ require("nvim-tree").setup({
 
 require("lsp-file-operations").setup()
 
-vim.keymap.set('n','n', ':NvimTreeFindFileToggle<CR>')
+vim.keymap.set('n','<leader>n', ':NvimTreeFindFileToggle<CR>')
