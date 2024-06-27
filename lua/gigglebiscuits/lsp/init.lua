@@ -29,3 +29,8 @@ require("lspconfig").lua_ls.setup{
   capabilities = capabilities,
   on_attach = on_attach
 }
+
+require("lspconfig").csharp_ls.setup {
+  capabilities = capabilities,
+  on_attach = on_attach
+}
