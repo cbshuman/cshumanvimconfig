@@ -1,11 +1,12 @@
-require("mason").setup()
 require("mason-lspconfig").setup({
   ensure_installed = {
     "clangd",
     "lua_ls",
-    "csharp_ls"
+    "csharp_ls",
   }
 })
+
+require("mason").setup()
 
 local on_attach = function(_,_)
   vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, {})
@@ -16,14 +17,11 @@ end
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
-if(require("lspconfig").clangd.setup {
+require("lspconfig").clangd.setup {
   capabilities = capabilities,
-  on_attach = on_attach
-}) then
-  print('Loaded clangd')
-else
-  print('Problem loading clangd')
-end
+  on_attach = on_attach,
+  filetypes = {"c", "cpp","objc","objcpp"},
+}
 
 require("lspconfig").lua_ls.setup{
   capabilities = capabilities,
